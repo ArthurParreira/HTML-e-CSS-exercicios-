@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body{
+    background-color: aquamarine;
+    
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    width: 600px;
+    margin:auto;
+    padding: 10px;
+}
+
+h1{
+    color:cadetblue;
+}
+.principal{
+    background-color: rgb(238, 213, 180);
+    text-align: center;
+    border-radius: 10px;
+    color: black;
+    font-size: 3em;
+}
+
+.basico {
+    color:rgb(95, 160, 95);
+}
+
+.intermediario{
+    color:rgb(146, 160, 95);
+}
+
+.avancado{
+    color:rgb(160, 95, 95);
+}
+
+.destaque{
+    color:blueviolet;
+}

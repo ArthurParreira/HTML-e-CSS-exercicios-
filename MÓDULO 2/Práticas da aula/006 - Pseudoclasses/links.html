@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links personalisados</title>
+</head>
+<style>
+    a{
+        color:blue;
+    }
+
+    a:visited{
+        color: lightblue;
+    }
+
+    a:active{
+        color: black;
+    }
+
+    .fera::after{
+        content:' 👈';
+    }
+
+    .fera::before{
+        content: '👉 ';
+    }
+</style>
+<body>
+    <ul>
+        <li><a href="https://youtube.com/cursoemvideo" target="_blank" rel="external" class="fera">Canal do Curso em Vídeo</a></li>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank" rel="external">Repositório do Guanabara</a></li>
+        <li><a href="https://store.steampowered.com" target="_blank" rel="external">Steam</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem dinâmica</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Abra esse site em vários dispositivos ou ajuste o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/P.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/M.png" type="image/png">
+        <img src="Imagens/G.png" alt="Imagem flexível">
+    </picture>
+    <hr>
+    <h1>Reproduzindo áudio</h1>
+    <p>Reproduzindo áudio em HTML5</p>
+    <audio preload="metadata" controls>
+        <source src="audio/Como Vamos_ - Casa Rosa.mp3" type="audio/mpeg">
+        <source src="audio/Como Vamos_ - Casa Rosa.ogg" type="audio/ogg">
+        <source src="audio/Como Vamos_ - Casa Rosa.wav" type="audio/wav"> <!--Evitar o arquivo WAV por ele ser muito pesado-->
+        <p>Infelizmente seu navegador não consegue reproduzir áudios <a href="audio/Como Vamos_ - Casa Rosa.mp3" download="audio/mpeg" type="audio/mpeg">clique aqui para baixar o arquivo MP3</a>
+        </p>
+    </audio>
+    <hr>
+    <h2>Hospedando vídeos localmente/internamente</h2>
+    <video controls autoplay width="700" poster="Imagens/pedra-do-ceu-guaratinga-1024x512.jpg">
+        <source src="videos/Montanha.mp4" type="video/mp4">
+        <source src="videos/Montanha.mkv" type="video/mkv">
+        <source src="videos/Montanha.webm" type="video/webm">
+        <p>Infelizmente seu navegador não conseguiu reproduzir o vídeo.</p> 
+    </video> <!--Evitar utilizar hospedagem de vídeos locais!!!!!!-->
+    <hr>
+    <h2>Hospedando vídeos externamente</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/63YjscQ7rM0?si=paPS4ngb_vamDvYV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <!--Erro caso abrir sem estar hospedado em um servidor, para ver o resultado abrir pelo LIVE SERVER-->
+</body>
+</html>

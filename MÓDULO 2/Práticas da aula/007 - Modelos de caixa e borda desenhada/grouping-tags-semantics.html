@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+
+        body{
+            background-image: linear-gradient(to right, blue, rgb(94, 94, 255), rgb(175, 175, 253));
+        }
+        header{
+            padding: 1px 10px 10px 10px;
+            background-color: lightblue;
+            text-align: center;
+            margin: auto;
+            border-radius: 15px 15px 0px 0px;
+        }
+
+        header > h1{    
+            margin-top: 10px;
+        }
+        
+        header > nav > a{
+            text-decoration: none;
+            padding: 5px 30px;
+        }
+        
+        header > nav > a:hover{
+            color: white;
+        }
+
+        main{
+            text-align: center;
+            width: 80%;
+            margin: auto;
+            background-color: rgb(116, 240, 240);
+            border-radius: 15px;
+            padding-bottom: 0px;
+            box-shadow: 5px 8px 15px black;
+        }
+
+        section{
+            background-color: white;
+            width: 95%;
+            margin: 10px auto 10px auto;
+            border-radius: 10px;
+            padding: 5px;
+            border: 2px black solid;
+        }
+
+        section > h2{
+            margin-top: 5px;
+        }
+
+        article{
+            text-align: left;
+            padding: 5px;
+        }
+
+        aside{
+            padding: 10px;
+            background-color: aquamarine;
+            border-radius: 10px;
+            border: 2px rgb(116, 116, 184) solid;
+        }
+
+        article > aside{
+            text-align: left;
+            padding: 5px;
+            background-color: white;
+            font-style: italic;
+            border: none;
+        }
+
+        footer{
+            background-color: rgb(0, 0, 109);
+            color: white;
+            border-radius: 0px 0px 15px 15px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+    <header>
+        <h1>Cabeçalho</h1>
+        <nav>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+            <a href="#">Link 5</a>
+        </nav>
+    </header>
+    
+        <section>
+            <h2>Conteúdo Principal</h2>
+            <article>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non inventore dolore animi provident modi accusantium quo, laudantium facilis consequatur eveniet dolor adipisci ex cumque mollitia, ut beatae est. Dolorum, magnam!
+                <aside>-Arthur Parreira</aside>
+            </article>
+        </section>
+        <section>
+            <article>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex totam, praesentium suscipit nemo, id, consectetur eos nam delectus earum et consequuntur doloremque! Numquam libero labore, corrupti soluta quam ducimus qui.
+            </article>
+            <aside>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis omnis dolores corporis aspernatur inventore.</aside>
+        </section>
+        <footer>
+            <p>2026&reg; Diretrizes Direto da Minha Casa</p>
+        </footer>
+    </main>
+</body>
+</html>

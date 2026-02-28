@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{
+    background-color: aquamarine;
+    
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    width: 600px;
+    margin:auto;
+    padding: 10px;
+}
+
+h1 {
+    color: cadetblue;
+}
+
+h1#principais {
+    text-align: center;
+    font-size: 3em;
+    background-color: rgb(238, 213, 180);
+    border-radius: 10px;
+    color:black;
+}
+
+h2{
+    color: rgb(148, 201, 201);
+}

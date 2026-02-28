@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body {
+    background-color: burlywood;
+    font-size: 18px;
+    text-align: justify;
+}
+
+h1 {
+    font-family: Georgia;
+    color: blue;
+}
+
+h2 {
+    color: red;
+}

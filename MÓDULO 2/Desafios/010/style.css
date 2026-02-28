@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf)
+    format(opentype);
+}
+
+body{
+    background-color: #84E0AD;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+p{
+    text-indent: 15px;
+    font-size: large;
+    margin: 10px;
+}
+
+header{
+    background-image: linear-gradient(to top, #195D36, #2C9A5D, #37C978);
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    color: white;
+}
+
+header > nav{
+    text-align: left;
+    padding: 0px;
+}
+
+header > nav > a{
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 10px;
+    padding: 2px;
+}
+
+header > nav > a:hover{
+    background-color: #37C978;
+    padding: 2px;
+    color:#ffffff;
+    display: inline-block;
+}
+
+header > aside{
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+header > h1{
+    margin-top: 0px;
+    padding: 15px 10px 5px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 2.5em;
+}
+
+main > section{
+    width: 800px;
+    background-color: white;
+    margin: auto;
+    border-radius: 0px 0px 15px 15px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px black;
+}
+
+section > article > h1{
+    margin-top: 0px;
+    padding-top: 10px;
+    font-family: 'android';
+    color: rgb(0, 80, 0);
+}
+
+main > section > article > h2{
+    font-family: 'android';
+    color: rgb(0, 80, 0);
+    background-image: linear-gradient(to right, #CBE8D9, #e4f1eb, #ffffff);
+    text-indent: 10px;
+}
+
+article > p > a{
+    color: #195D36;
+    text-decoration: none;
+    font-weight: 900;
+    
+}
+
+article > p > a::after{
+    content: '🔗';
+}
+
+article > p > a:hover{
+    text-decoration: underline;
+}
+
+aside > p{
+    margin: 0px;
+    text-indent: 0px;
+}
+
+strong{
+    color:#195D36;
+    font-weight: 800;
+}
+
+.video{
+    text-align: center;
+    background-color: #195D36;
+    text-indent: 0px;
+}
+
+.curiosidades{
+    background-color: #acf3cb;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+article > h3{
+    text-indent: 10px;
+    padding: 15px;
+    background-color: #37C978;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+}
+
+.ultima-secao{
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 15px black;
+}
+
+footer{
+    background-color: #195D36;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
+pre > strong{
+    color: black; 
+    text-decoration: underline;
+}

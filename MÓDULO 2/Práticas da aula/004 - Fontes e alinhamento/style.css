@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body{
+    font: italic bolder 2em 'Work sans';
+}
+
+h2{
+    font: normal bold 1.5em 'Work sans';
+}
+
+p {
+    font: normal normal 1em 'Work sans'
+}
